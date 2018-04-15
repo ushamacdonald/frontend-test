@@ -1,5 +1,7 @@
 import React from 'react'
 
+import '../sass/styles.scss'
+
 import Header from './Header'
 import Form from './Form'
 import Content from './Content'
