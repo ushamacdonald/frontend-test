@@ -1,6 +1,19 @@
 @import
 	'~bulma/sass/utilities/initial-variables';
 
-
 @import
   '~bulma/bulma';
+
+  .carousel img {
+    padding-right: 10px;
+  }
+
+  @media (max-width:900px) {
+    .slide {
+      min-width: 80vw!important;
+    }ß
+  }
+
+  .carousel .slide {
+    background-color: transparent!important;
+  }
