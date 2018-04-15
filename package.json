@@ -4,7 +4,9 @@
   "description": "A front end test for Catch",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "start": "webpack-dev-server --hot",
+    "test": "jest --watchAll",
+    "build": "webpack --output-filename bundle.js"
   },
   "author": "ushamacdonald",
   "license": "ISC",
