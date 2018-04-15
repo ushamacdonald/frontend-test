@@ -12,6 +12,9 @@ const App = () => (
   <div>
     <Header />
     <Form />
+    <div className="column is-4 is-offset-4">
+      <hr className="navbar-divider" />
+    </div>
     <Content />
     <Scroller />
     <Footer />
